@@ -1,0 +1,112 @@
+/* General Page Styling */
+.services-page {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f8f8f8; /* Light Gray */
+  color: #222; /* Dark Gray for readability */
+  padding-bottom: 50px;
+}
+
+/* Header Section */
+.services-header {
+  text-align: center;
+  padding: 60px 20px;
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.services-header h1 {
+  font-size: 3rem;
+  font-weight: normal;
+  color: #222;
+  letter-spacing: -0.5px;
+}
+
+.services-header p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Service Sections */
+.service-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  gap: 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Service Text */
+.service-text {
+  flex: 1;
+  padding: 30px;
+  background: #f4f4f4; /* Light Gray */
+  border: none;
+  font-size: 1.1rem;
+  color: #555; /* Medium Gray */
+}
+
+.service-text h2 {
+  font-size: 2rem;
+  color: #222; /* Dark Gray */
+  font-weight: normal;
+}
+
+.service-text p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+/* Service Image */
+.service-image {
+  flex: 1;
+}
+
+.service-image img {
+  width: 100%;
+  border-radius: 0px; /* No rounded corners */
+}
+
+/* Call to Action */
+.services-cta {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f1f1f1;
+  color: #222;
+}
+
+.services-cta h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.services-cta p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 20px auto;
+  color: #555;
+}
+
+.cta-button {
+  background: #222; /* Dark */
+  color: #ffffff;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background: #333; /* Slightly lighter */
+}
